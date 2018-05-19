@@ -1,6 +1,7 @@
 import sys
 
 def read_file(textfile):
+	# Open text file
 	f = open(textfile, 'r')
 	next(f)
 	i = 0
@@ -16,8 +17,10 @@ def read_file(textfile):
 			j += 1
 			if j == 9:
 				i += 1
+				# Stop
 				break
 		if i == 9:
+			# Stop
 			break
 	return matrix
 
