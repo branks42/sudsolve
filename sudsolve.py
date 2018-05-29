@@ -1,7 +1,7 @@
 import sys
 
 def read_file(textfile):
-	# Open text sudoku file
+	# Open sudoku file (text document)
 	f = open(textfile, 'r')
 	next(f)
 	i = 0
